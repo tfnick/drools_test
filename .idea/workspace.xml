@@ -2,23 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bffc1570-5fbe-440a-91c0-a97e73be381d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.MD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tfnick/demo/model/ProcessRecord.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tfnick/demo/model/RuleRecord.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/ruleflow/demo_ruleflow.bpmn" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/GrAgendaEventListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/sample/GrAgendaEventListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/GrRuleRuntimeEventListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/sample/GrRuleRuntimeEventListener.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/ProcessDemoTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/ProcessDemoTest.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/RuleTaskStart.java" afterPath="$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/RuleTaskStart.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processrules/processRuleslooptest777.bpmn" afterPath="$PROJECT_DIR$/src/main/resources/processrules/processRuleslooptest777.bpmn" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ruleflow/demo_ruleflow.bpmn" afterPath="$PROJECT_DIR$/src/main/resources/ruleflow/demo_ruleflow.bpmn" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules1.drl" afterPath="$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules1.drl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules2.drl" afterPath="$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules2.drlx" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules2.drlx" afterPath="$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules2.drl" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/DroolsUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/DroolsUtils$SingletonHolder.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/DroolsUtils$SingletonHolder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/DroolsUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/DroolsUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/GrAgendaEventListener$1.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/GrAgendaEventListener$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/GrAgendaEventListener.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/GrAgendaEventListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/GrRuleRuntimeEventListener.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/GrRuleRuntimeEventListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/HelloProcessModel.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/HelloProcessModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/KieHelperUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/KieHelperUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/LoadResource.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/LoadResource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/ProcessRuleTest.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/ProcessRuleTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/ProcessTest.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/ProcessTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/RuleCodeResolve.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/RuleCodeResolve.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/RuntimeManagerUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/sample/RuntimeManagerUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/facts/PersonModel.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/facts/PersonModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/DataSet.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/DataSet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/DataSource.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/DataSource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/Metric.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/Metric.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/Rule.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/Rule.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/RuleSet.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/RuleSet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/SqlDataSet.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/SqlDataSet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/WbDataSet.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/model/meta/WbDataSet.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/test/ProcessDemoTest.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/test/ProcessDemoTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/test/QuickStartBase.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/test/QuickStartBase.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tfnick/demo/test/RuleTaskStart.class" afterPath="$PROJECT_DIR$/target/classes/com/tfnick/demo/test/RuleTaskStart.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/processrules/processRuleslooptest777.bpmn" afterPath="$PROJECT_DIR$/target/classes/processrules/processRuleslooptest777.bpmn" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ruleflow/demo_ruleflow.bpmn" afterPath="$PROJECT_DIR$/target/classes/ruleflow/demo_ruleflow.bpmn" />
       <change beforePath="$PROJECT_DIR$/target/classes/ruleflow/demo_rules1.drl" afterPath="$PROJECT_DIR$/target/classes/ruleflow/demo_rules1.drl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ruleflow/demo_rules2.drl" afterPath="$PROJECT_DIR$/target/classes/ruleflow/demo_rules2.drlx" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ruleflow/demo_rules2.drlx" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,108 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PersonModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/facts/PersonModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo_rules1.drl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules1.drl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo_rules2.drlx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules2.drlx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoopConditionRules.drl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/processrules/LoopConditionRules.drl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuleSet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/model/meta/RuleSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/model/ProcessRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuleRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/model/RuleRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuleTaskStart.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RuleTaskStart.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/RuleTaskStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessDemoTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/ProcessDemoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="103">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -280,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -337,8 +261,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -571,12 +493,13 @@
       <workItem from="1543328720974" duration="12371000" />
       <workItem from="1543388281982" duration="53000" />
       <workItem from="1543388359677" duration="10561000" />
-      <workItem from="1543414803713" duration="312000" />
+      <workItem from="1543414803713" duration="940000" />
+      <workItem from="1543421273572" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25382000" />
+    <option name="totallyTimeSpent" value="26043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -592,7 +515,7 @@
       <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46165192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382874" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -621,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="7" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,10 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="7" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,10 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,10 +701,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="bpmn-editor">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+      <provider editor-type-id="bpmn-editor">
         <state />
       </provider>
     </entry>
@@ -810,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,13 +748,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
-      <provider editor-type-id="bpmn-editor">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+      <provider editor-type-id="bpmn-editor">
         <state />
       </provider>
     </entry>
@@ -882,13 +789,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="75" column="14" lean-forward="false" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
-      <provider editor-type-id="bpmn-editor">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+      <provider editor-type-id="bpmn-editor">
         <state />
       </provider>
     </entry>
@@ -906,13 +812,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="183" column="20" lean-forward="false" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
-      <provider editor-type-id="bpmn-editor">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+      <provider editor-type-id="bpmn-editor">
         <state />
       </provider>
     </entry>
@@ -920,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ruleflow/demo_rules1.drl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="750">
+          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -994,20 +898,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/RuleTaskStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/ProcessDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tfnick/demo/test/RuleTaskStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>

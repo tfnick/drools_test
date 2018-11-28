@@ -21,18 +21,18 @@ public class GrRuleRuntimeEventListener implements RuleRuntimeEventListener {
     @Override
     public void objectInserted(ObjectInsertedEvent event) {
 
-        logger.info(event.toString());
+        logger.info("insert fact " + event.toString());
     }
 
     @Override
     public void objectUpdated(ObjectUpdatedEvent event) {
 
-        logger.info(event.toString());
+        logger.info("update fact " + event.toString());
     }
 
     @Override
     public void objectDeleted(ObjectDeletedEvent event) {
 
-        logger.info(event.toString());
+        logger.info("delete fact " + event.toString());
     }
 }

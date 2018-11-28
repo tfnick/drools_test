@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  */
 public class GrAgendaEventListener implements AgendaEventListener {
 
-    private static Logger RULE_HIT_LOGGER = LoggerFactory.getLogger("RULE_HIT_LOGGER");
+    private static Logger RULE_HIT_LOGGER = LoggerFactory.getLogger(GrAgendaEventListener.class);
 
     //规则编码必须符合规范 FF01#描述信息， 其中FF01是需要提取的规则编码
     private  RuleCodeResolve ruleCodeResolve = new RuleCodeResolve() {

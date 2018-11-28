@@ -8,7 +8,7 @@ import com.tfnick.demo.facts.PersonModel;
 //declare any global variables here
 rule "AC00-核心数据缺失不贷"
     lock-on-active true
-    ruleflow-group "rf-group"
+    ruleflow-group "demo_rules1"
     when
         m:PersonModel(province == null || age == null)
     then
@@ -23,7 +23,7 @@ end
 
 rule "AC01-北上广超过30的成年人不贷"
     lock-on-active true
-    ruleflow-group "rf-group"
+    ruleflow-group "demo_rules1"
     when
         m:PersonModel(province in ("BJ","SH","SZ"),  age > 30)
     then
@@ -36,7 +36,7 @@ end
 
 rule "AC02-其他省份年龄高于50的不贷"
     lock-on-active true
-    ruleflow-group "rf-group"
+    ruleflow-group "demo_rules1"
     when
         m:PersonModel(province not in ("BJ","SH","SZ"),  age > 50)
     then
@@ -47,9 +47,10 @@ rule "AC02-其他省份年龄高于50的不贷"
 
 end
 
+
 rule "AC03-未成年人不贷"
     lock-on-active true
-    ruleflow-group "rf-group"
+    ruleflow-group "demo_rules2"
     when
         m:PersonModel(age < 18)
     then
@@ -60,12 +61,12 @@ rule "AC03-未成年人不贷"
 
 end
 
-
+/*
 
 
 rule "IV02-申请次数过多拒绝"
     lock-on-active true
-    ruleflow-group "rf-group"
+    ruleflow-group "demo_rules2"
     when
         m:PersonModel(count > 2)
     then
@@ -76,5 +77,5 @@ rule "IV02-申请次数过多拒绝"
 
 end
 
-
+*/
 

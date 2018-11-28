@@ -1,171 +1,118 @@
-2018-11-28 18:43:31,147 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 18:43:31,935 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 18:43:48,813 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 18:43:49,600 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 18:43:53,760 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
-2018-11-28 18:43:53,804 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:ruleflow
-[-1,-1]: Process 'Sample Process' [demo_ruleflow]: Node 'demo_rules1' [2] RuleSet has no ruleflow-group.
-[-1,-1]: Process 'Sample Process' [demo_ruleflow]: Node 'demo_rules2' [3] RuleSet has no ruleflow-group.
-
-2018-11-28 18:53:27,785 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 18:53:28,351 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 18:54:10,897 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 18:54:11,627 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 18:55:50,737 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 18:55:51,229 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 18:55:54,027 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
-2018-11-28 18:55:54,064 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:ruleflow
-[-1,-1]: Process 'Sample Process' [com.sample.bpmn]: Node 'demo_rules1' [2] RuleSet has no ruleflow-group.
-[-1,-1]: Process 'Sample Process' [com.sample.bpmn]: Node 'demo_rules2' [3] RuleSet has no ruleflow-group.
-
-2018-11-28 18:56:04,795 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 18:56:05,347 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 18:56:08,080 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
-2018-11-28 18:56:08,112 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:ruleflow
-[-1,-1]: Process 'Sample Process' [com.sample.bpmn]: Node 'demo_rules1' [2] RuleSet has no ruleflow-group.
-[-1,-1]: Process 'Sample Process' [com.sample.bpmn]: Node 'demo_rules2' [3] RuleSet has no ruleflow-group.
-
-2018-11-28 18:56:45,700 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 18:56:46,330 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 18:56:49,014 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
-2018-11-28 18:56:49,046 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:ruleflow
-[-1,-1]: Process 'Sample Process' [com.sample.bpmn]: Node 'demo_rules1' [2] RuleSet has no ruleflow-group.
-[-1,-1]: Process 'Sample Process' [com.sample.bpmn]: Node 'demo_rules2' [3] RuleSet has no ruleflow-group.
-
-2018-11-28 18:58:37,114 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 18:58:37,593 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 18:58:40,554 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
-2018-11-28 18:58:40,593 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:ruleflow
-[-1,-1]: Process 'Sample Process' [com.sample.bpmn]: Node 'demo_rules1' [2] RuleSet has no ruleflow-group.
-[-1,-1]: Process 'Sample Process' [com.sample.bpmn]: Node 'demo_rules2' [3] RuleSet has no ruleflow-group.
-
-2018-11-28 19:01:04,414 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:01:04,954 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:01:13,024 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:01:13,732 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:02:08,591 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:02:09,182 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:02:23,796 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:02:24,394 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:02:39,803 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:02:40,571 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:02:52,717 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:02:53,320 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:04:07,162 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:04:07,859 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:04:17,614 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:04:18,287 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:04:41,902 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:04:42,483 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:06:40,044 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:06:40,650 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:07:23,738 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:07:24,315 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:07:45,638 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:07:46,216 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:07:48,414 ERROR [main] org.drools.core.xml.ExtensibleXmlParser.java:(683) | (null: 2, 785): cvc-elt.1: 找不到元素 'definitions' 的声明。
-2018-11-28 19:07:49,946 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:processrules
-ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : <itemDefinition> has an invalid parent element [null]
-
-2018-11-28 19:08:19,388 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:08:19,955 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:08:47,234 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:08:47,842 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:09:42,790 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:09:43,330 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:13:48,497 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
-2018-11-28 19:16:27,041 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
-2018-11-28 19:18:24,854 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:18:25,263 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:18:33,720 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:18:34,150 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:20:30,403 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:20:30,928 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:20:32,938 ERROR [main] org.drools.core.xml.ExtensibleXmlParser.java:(683) | (null: 2, 785): cvc-elt.1: 找不到元素 'definitions' 的声明。
-2018-11-28 19:20:33,431 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:processrules
-ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : <itemDefinition> has an invalid parent element [null]
-
-2018-11-28 19:23:09,153 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:23:09,896 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:23:26,041 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:23:26,624 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:26:12,216 INFO  [main] org.hibernate.annotations.common.Version.java:(37) | HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2018-11-28 19:26:12,241 INFO  [main] org.hibernate.Version.java:(41) | HHH000412: Hibernate Core {4.2.0.Final}
-2018-11-28 19:26:12,245 INFO  [main] org.hibernate.cfg.Environment.java:(239) | HHH000206: hibernate.properties not found
-2018-11-28 19:26:12,248 INFO  [main] org.hibernate.cfg.Environment.java:(342) | HHH000021: Bytecode provider name : javassist
-2018-11-28 19:26:12,283 INFO  [main] org.hibernate.ejb.Ejb3Configuration.java:(321) | HHH000318: Could not find any META-INF/persistence.xml file in the classpath
-2018-11-28 19:43:10,629 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
-2018-11-28 19:57:52,450 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:57:53,041 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:57:54,971 ERROR [main] org.drools.core.xml.ExtensibleXmlParser.java:(683) | (null: 2, 785): cvc-elt.1: 找不到元素 'definitions' 的声明。
-2018-11-28 19:57:55,493 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:processrules
-ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : <itemDefinition> has an invalid parent element [null]
-
-2018-11-28 19:59:21,021 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:59:21,754 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 19:59:43,292 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 19:59:43,845 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:01:23,388 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:01:23,944 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:01:41,279 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:01:41,732 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:01:54,530 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:01:55,019 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:06:26,161 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:06:26,574 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:06:48,339 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:06:48,804 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:06:51,264 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:ruleflow
-[58,0]: Duplicate rule name: IV01-申请次数超过3次转人工
-[71,0]: Duplicate rule name: IV02-申请次数过多拒绝
-Rule Compilation error : [Rule name='IV02-申请次数过多拒绝']
-	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (6:253) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV02$u45$申请次数过多拒绝618509454
-	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (14:727) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV02$u45$申请次数过多拒绝618509454
-	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (3:144) : The type Rule_IV02$u45$申请次数过多拒绝618509454 is already defined
-
-Rule Compilation error : [Rule name='IV01-申请次数超过3次转人工']
-	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (6:257) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV01$u45$申请次数超过3次转人工1091123609
-	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (14:734) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV01$u45$申请次数超过3次转人工1091123609
-	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (3:144) : The type Rule_IV01$u45$申请次数超过3次转人工1091123609 is already defined
-
-
-2018-11-28 20:07:15,390 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:07:15,895 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:08:09,868 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:08:10,356 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:09:57,249 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:09:57,762 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:22:00,011 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:22:00,616 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:22:42,821 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:22:43,512 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:22:46,999 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:ruleflow
-[53,0]: Duplicate rule name: IV01-申请次数超过3次转人工
-[66,0]: Duplicate rule name: IV02-申请次数过多拒绝
-Rule Compilation error : [Rule name='IV02-申请次数过多拒绝']
-	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (6:253) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV02$u45$申请次数过多拒绝618509454
-	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (14:727) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV02$u45$申请次数过多拒绝618509454
-	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (3:144) : The type Rule_IV02$u45$申请次数过多拒绝618509454 is already defined
-
-Rule Compilation error : [Rule name='IV01-申请次数超过3次转人工']
-	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (6:257) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV01$u45$申请次数超过3次转人工1091123609
-	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (14:734) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV01$u45$申请次数超过3次转人工1091123609
-	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (3:144) : The type Rule_IV01$u45$申请次数超过3次转人工1091123609 is already defined
-
-
-2018-11-28 20:23:10,230 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:23:10,868 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:24:19,175 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:24:19,818 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:39:29,563 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:39:30,119 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:39:44,814 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:39:45,513 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:40:13,962 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:40:14,571 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:41:36,703 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:41:37,310 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:42:05,765 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:42:06,260 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
-2018-11-28 20:42:59,896 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
-2018-11-28 20:43:00,715 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
+2018-11-29 00:01:33,695 INFO  [main] com.sample.GrRuleRuntimeEventListener.java:(24) | ==>[ObjectInsertedEventImpl: getFactHandle()=[fact 0:1:21331934:21331934:1:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@1457fde], getObject()=com.tfnick.demo.facts.PersonModel@1457fde, getKnowledgeRuntime()=KieSession[0], getPropagationContext()=PhreakPropagationContext [entryPoint=EntryPoint::DEFAULT, factHandle=[fact 0:1:21331934:21331934:1:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@1457fde], leftTuple=null, originOffset=-1, propagationNumber=2, rule=null, type=0]]
+2018-11-29 00:01:33,727 INFO  [main] com.sample.GrProcessEventListener.java:(20) | Sample Process
+2018-11-29 00:01:33,749 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : null_1
+2018-11-29 00:01:33,752 INFO  [main] com.sample.GrProcessEventListener.java:(60) | Sample Process
+2018-11-29 00:01:33,752 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : demo_rules1_2
+2018-11-29 00:01:33,843 INFO  [main] com.sample.GrProcessEventListener.java:(60) | Sample Process
+2018-11-29 00:01:33,844 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : demo_rules2_3
+2018-11-29 00:01:33,852 INFO  [main] com.sample.GrRuleRuntimeEventListener.java:(30) | ==>[ObjectUpdatedEventImpl: getFactHandle()=[fact 0:1:21331934:21331934:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@1457fde], getObject()=com.tfnick.demo.facts.PersonModel@1457fde, getOldObject()=com.tfnick.demo.facts.PersonModel@1457fde, getKnowledgeRuntime()=KieSession[0], getPropagationContext()=PhreakPropagationContext [entryPoint=EntryPoint::DEFAULT, factHandle=[fact 0:1:21331934:21331934:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@1457fde], leftTuple=[[ AC03-未成年人不贷 active=false ] [ [fact 0:1:21331934:21331934:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@1457fde] ] ], originOffset=-1, propagationNumber=3, rule=[Rule name=AC03-未成年人不贷, agendaGroup=demo_rules2, salience=0, no-loop=false], type=2]]
+2018-11-29 00:01:33,856 INFO  [main] com.sample.GrProcessEventListener.java:(60) | Sample Process
+2018-11-29 00:01:33,856 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : End_4
+2018-11-29 00:01:33,857 INFO  [main] com.sample.GrProcessEventListener.java:(60) | Sample Process
+2018-11-29 00:01:33,857 INFO  [main] com.sample.GrProcessEventListener.java:(34) | Sample Process
+2018-11-29 00:01:33,858 INFO  [main] com.sample.GrProcessEventListener.java:(40) | Sample Process
+2018-11-29 00:01:33,859 INFO  [main] com.sample.GrProcessEventListener.java:(66) | left End
+2018-11-29 00:01:33,860 INFO  [main] com.sample.GrProcessEventListener.java:(54) | Sample Process
+2018-11-29 00:01:33,860 INFO  [main] com.sample.GrProcessEventListener.java:(66) | left demo_rules2
+2018-11-29 00:01:33,861 INFO  [main] com.sample.GrProcessEventListener.java:(54) | Sample Process
+2018-11-29 00:01:33,861 INFO  [main] com.sample.GrProcessEventListener.java:(66) | left demo_rules1
+2018-11-29 00:01:33,862 INFO  [main] com.sample.GrProcessEventListener.java:(54) | Sample Process
+2018-11-29 00:01:33,862 INFO  [main] com.sample.GrProcessEventListener.java:(66) | left null
+2018-11-29 00:01:33,862 INFO  [main] com.sample.GrProcessEventListener.java:(54) | Sample Process
+2018-11-29 00:01:33,862 INFO  [main] com.sample.GrProcessEventListener.java:(28) | Sample Process
+2018-11-29 00:03:11,373 INFO  [main] com.sample.GrRuleRuntimeEventListener.java:(24) | ==>[ObjectInsertedEventImpl: getFactHandle()=[fact 0:1:46852536:46852536:1:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@2cae9b8], getObject()=com.tfnick.demo.facts.PersonModel@2cae9b8, getKnowledgeRuntime()=KieSession[0], getPropagationContext()=PhreakPropagationContext [entryPoint=EntryPoint::DEFAULT, factHandle=[fact 0:1:46852536:46852536:1:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@2cae9b8], leftTuple=null, originOffset=-1, propagationNumber=2, rule=null, type=0]]
+2018-11-29 00:03:11,414 INFO  [main] com.sample.GrProcessEventListener.java:(20) | Sample Process
+2018-11-29 00:03:11,459 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : null
+2018-11-29 00:03:11,462 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:03:11,463 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : demo_rules1
+2018-11-29 00:03:11,613 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:03:11,614 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : demo_rules2
+2018-11-29 00:03:11,640 INFO  [main] com.sample.GrRuleRuntimeEventListener.java:(30) | ==>[ObjectUpdatedEventImpl: getFactHandle()=[fact 0:1:46852536:46852536:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@2cae9b8], getObject()=com.tfnick.demo.facts.PersonModel@2cae9b8, getOldObject()=com.tfnick.demo.facts.PersonModel@2cae9b8, getKnowledgeRuntime()=KieSession[0], getPropagationContext()=PhreakPropagationContext [entryPoint=EntryPoint::DEFAULT, factHandle=[fact 0:1:46852536:46852536:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@2cae9b8], leftTuple=[[ AC03-未成年人不贷 active=false ] [ [fact 0:1:46852536:46852536:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@2cae9b8] ] ], originOffset=-1, propagationNumber=3, rule=[Rule name=AC03-未成年人不贷, agendaGroup=demo_rules2, salience=0, no-loop=false], type=2]]
+2018-11-29 00:03:11,646 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:03:11,647 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : End
+2018-11-29 00:03:11,648 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:03:11,660 INFO  [main] com.sample.GrProcessEventListener.java:(34) | Sample Process
+2018-11-29 00:03:11,661 INFO  [main] com.sample.GrProcessEventListener.java:(40) | Sample Process
+2018-11-29 00:03:11,662 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left End
+2018-11-29 00:03:11,663 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:03:11,668 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left demo_rules2
+2018-11-29 00:03:11,669 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:03:11,670 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left demo_rules1
+2018-11-29 00:03:11,670 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:03:11,671 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left null
+2018-11-29 00:03:11,671 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:03:11,671 INFO  [main] com.sample.GrProcessEventListener.java:(28) | Sample Process
+2018-11-29 00:06:38,109 INFO  [main] com.sample.GrRuleRuntimeEventListener.java:(24) | insert fact ==>[ObjectInsertedEventImpl: getFactHandle()=[fact 0:1:84915002:84915002:1:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@50fb33a], getObject()=com.tfnick.demo.facts.PersonModel@50fb33a, getKnowledgeRuntime()=KieSession[0], getPropagationContext()=PhreakPropagationContext [entryPoint=EntryPoint::DEFAULT, factHandle=[fact 0:1:84915002:84915002:1:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@50fb33a], leftTuple=null, originOffset=-1, propagationNumber=2, rule=null, type=0]]
+2018-11-29 00:06:38,143 INFO  [main] com.sample.GrProcessEventListener.java:(20) | Sample Process
+2018-11-29 00:06:38,167 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : null
+2018-11-29 00:06:38,172 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:06:38,172 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : demo_rules1
+2018-11-29 00:06:38,175 INFO  [main] com.sample.GrAgendaEventListener.java:(65) | match rule demo_rules1 beforeRuleFlowGroupActivated
+2018-11-29 00:06:38,179 INFO  [main] com.sample.GrAgendaEventListener.java:(70) | match rule demo_rules1 afterRuleFlowGroupActivated
+2018-11-29 00:06:38,279 INFO  [main] com.sample.GrAgendaEventListener.java:(60) | match rule demo_rules1 agendaGroupPushed
+2018-11-29 00:06:38,281 INFO  [main] com.sample.GrAgendaEventListener.java:(34) | match rule AC03-未成年人不贷 matchCreated
+2018-11-29 00:06:38,283 INFO  [main] com.sample.GrAgendaEventListener.java:(75) | match rule demo_rules1 beforeRuleFlowGroupDeactivated
+2018-11-29 00:06:38,283 INFO  [main] com.sample.GrAgendaEventListener.java:(80) | match rule demo_rules1 afterRuleFlowGroupDeactivated
+2018-11-29 00:06:38,284 INFO  [main] com.sample.GrAgendaEventListener.java:(55) | match rule demo_rules1 agendaGroupPopped
+2018-11-29 00:06:38,285 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:06:38,286 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : demo_rules2
+2018-11-29 00:06:38,286 INFO  [main] com.sample.GrAgendaEventListener.java:(65) | match rule demo_rules2 beforeRuleFlowGroupActivated
+2018-11-29 00:06:38,289 INFO  [main] com.sample.GrAgendaEventListener.java:(70) | match rule demo_rules2 afterRuleFlowGroupActivated
+2018-11-29 00:06:38,290 INFO  [main] com.sample.GrAgendaEventListener.java:(60) | match rule demo_rules2 agendaGroupPushed
+2018-11-29 00:06:38,291 INFO  [main] com.sample.GrAgendaEventListener.java:(44) | match rule AC03-未成年人不贷 beforeMatchFired
+2018-11-29 00:06:38,342 INFO  [main] com.sample.GrRuleRuntimeEventListener.java:(30) | update fact ==>[ObjectUpdatedEventImpl: getFactHandle()=[fact 0:1:84915002:84915002:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@50fb33a], getObject()=com.tfnick.demo.facts.PersonModel@50fb33a, getOldObject()=com.tfnick.demo.facts.PersonModel@50fb33a, getKnowledgeRuntime()=KieSession[0], getPropagationContext()=PhreakPropagationContext [entryPoint=EntryPoint::DEFAULT, factHandle=[fact 0:1:84915002:84915002:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@50fb33a], leftTuple=[[ AC03-未成年人不贷 active=false ] [ [fact 0:1:84915002:84915002:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@50fb33a] ] ], originOffset=-1, propagationNumber=3, rule=[Rule name=AC03-未成年人不贷, agendaGroup=demo_rules2, salience=0, no-loop=false], type=2]]
+2018-11-29 00:06:38,343 INFO  [main] com.sample.GrAgendaEventListener.java:(50) | rule null matched and fired
+2018-11-29 00:06:38,350 INFO  [main] com.sample.GrAgendaEventListener.java:(75) | match rule demo_rules2 beforeRuleFlowGroupDeactivated
+2018-11-29 00:06:38,353 INFO  [main] com.sample.GrAgendaEventListener.java:(80) | match rule demo_rules2 afterRuleFlowGroupDeactivated
+2018-11-29 00:06:38,354 INFO  [main] com.sample.GrAgendaEventListener.java:(55) | match rule demo_rules2 agendaGroupPopped
+2018-11-29 00:06:38,355 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:06:38,356 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : End
+2018-11-29 00:06:38,357 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:06:38,362 INFO  [main] com.sample.GrProcessEventListener.java:(34) | Sample Process
+2018-11-29 00:06:38,364 INFO  [main] com.sample.GrProcessEventListener.java:(40) | Sample Process
+2018-11-29 00:06:38,364 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left End
+2018-11-29 00:06:38,365 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:06:38,366 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left demo_rules2
+2018-11-29 00:06:38,366 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:06:38,367 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left demo_rules1
+2018-11-29 00:06:38,367 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:06:38,368 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left null
+2018-11-29 00:06:38,369 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:06:38,369 INFO  [main] com.sample.GrProcessEventListener.java:(28) | Sample Process
+2018-11-29 00:08:34,742 INFO  [main] com.sample.GrRuleRuntimeEventListener.java:(24) | insert fact ==>[ObjectInsertedEventImpl: getFactHandle()=[fact 0:1:1217434045:1217434045:1:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@489091bd], getObject()=com.tfnick.demo.facts.PersonModel@489091bd, getKnowledgeRuntime()=KieSession[0], getPropagationContext()=PhreakPropagationContext [entryPoint=EntryPoint::DEFAULT, factHandle=[fact 0:1:1217434045:1217434045:1:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@489091bd], leftTuple=null, originOffset=-1, propagationNumber=2, rule=null, type=0]]
+2018-11-29 00:08:34,762 INFO  [main] com.sample.GrProcessEventListener.java:(20) | Sample Process
+2018-11-29 00:08:34,779 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : null
+2018-11-29 00:08:34,781 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:08:34,782 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : demo_rules1
+2018-11-29 00:08:34,784 INFO  [main] com.sample.GrAgendaEventListener.java:(65) | match rule demo_rules1 beforeRuleFlowGroupActivated
+2018-11-29 00:08:34,786 INFO  [main] com.sample.GrAgendaEventListener.java:(70) | match rule demo_rules1 afterRuleFlowGroupActivated
+2018-11-29 00:08:34,846 INFO  [main] com.sample.GrAgendaEventListener.java:(60) | match rule demo_rules1 agendaGroupPushed
+2018-11-29 00:08:34,848 INFO  [main] com.sample.GrAgendaEventListener.java:(34) | match rule AC03-未成年人不贷 matchCreated
+2018-11-29 00:08:34,849 INFO  [main] com.sample.GrAgendaEventListener.java:(75) | match rule demo_rules1 beforeRuleFlowGroupDeactivated
+2018-11-29 00:08:34,849 INFO  [main] com.sample.GrAgendaEventListener.java:(80) | match rule demo_rules1 afterRuleFlowGroupDeactivated
+2018-11-29 00:08:34,849 INFO  [main] com.sample.GrAgendaEventListener.java:(55) | match rule demo_rules1 agendaGroupPopped
+2018-11-29 00:08:34,850 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:08:34,850 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : demo_rules2
+2018-11-29 00:08:34,850 INFO  [main] com.sample.GrAgendaEventListener.java:(65) | match rule demo_rules2 beforeRuleFlowGroupActivated
+2018-11-29 00:08:34,851 INFO  [main] com.sample.GrAgendaEventListener.java:(70) | match rule demo_rules2 afterRuleFlowGroupActivated
+2018-11-29 00:08:34,851 INFO  [main] com.sample.GrAgendaEventListener.java:(60) | match rule demo_rules2 agendaGroupPushed
+2018-11-29 00:08:34,852 INFO  [main] com.sample.GrAgendaEventListener.java:(44) | match rule AC03-未成年人不贷 beforeMatchFired
+2018-11-29 00:08:34,861 INFO  [main] com.sample.GrRuleRuntimeEventListener.java:(30) | update fact ==>[ObjectUpdatedEventImpl: getFactHandle()=[fact 0:1:1217434045:1217434045:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@489091bd], getObject()=com.tfnick.demo.facts.PersonModel@489091bd, getOldObject()=com.tfnick.demo.facts.PersonModel@489091bd, getKnowledgeRuntime()=KieSession[0], getPropagationContext()=PhreakPropagationContext [entryPoint=EntryPoint::DEFAULT, factHandle=[fact 0:1:1217434045:1217434045:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@489091bd], leftTuple=[[ AC03-未成年人不贷 active=false ] [ [fact 0:1:1217434045:1217434045:2:DEFAULT:NON_TRAIT:com.tfnick.demo.facts.PersonModel:com.tfnick.demo.facts.PersonModel@489091bd] ] ], originOffset=-1, propagationNumber=3, rule=[Rule name=AC03-未成年人不贷, agendaGroup=demo_rules2, salience=0, no-loop=false], type=2]]
+2018-11-29 00:08:34,864 INFO  [main] com.sample.GrAgendaEventListener.java:(50) | rule null matched and fired
+2018-11-29 00:08:34,865 INFO  [main] com.sample.GrAgendaEventListener.java:(75) | match rule demo_rules2 beforeRuleFlowGroupDeactivated
+2018-11-29 00:08:34,866 INFO  [main] com.sample.GrAgendaEventListener.java:(80) | match rule demo_rules2 afterRuleFlowGroupDeactivated
+2018-11-29 00:08:34,866 INFO  [main] com.sample.GrAgendaEventListener.java:(55) | match rule demo_rules2 agendaGroupPopped
+2018-11-29 00:08:34,867 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:08:34,867 INFO  [main] com.sample.GrProcessEventListener.java:(47) | before trigger Node : End
+2018-11-29 00:08:34,867 INFO  [main] com.sample.GrProcessEventListener.java:(59) | Sample Process
+2018-11-29 00:08:34,868 INFO  [main] com.sample.GrProcessEventListener.java:(34) | Sample Process
+2018-11-29 00:08:34,870 INFO  [main] com.sample.GrProcessEventListener.java:(40) | Sample Process
+2018-11-29 00:08:34,871 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left End
+2018-11-29 00:08:34,871 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:08:34,871 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left demo_rules2
+2018-11-29 00:08:34,871 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:08:34,872 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left demo_rules1
+2018-11-29 00:08:34,872 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:08:34,872 INFO  [main] com.sample.GrProcessEventListener.java:(65) | left null
+2018-11-29 00:08:34,872 INFO  [main] com.sample.GrProcessEventListener.java:(53) | Sample Process
+2018-11-29 00:08:34,872 INFO  [main] com.sample.GrProcessEventListener.java:(28) | Sample Process

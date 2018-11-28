@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="http://www.jboss.org/drools" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:yaoqiang="http://bpmn.sourceforge.net" exporter="Yaoqiang BPMN Editor" exporterVersion="5.3" expressionLanguage="http://www.mvel.org/2.0" id="Definition" name="" targetNamespace="http://www.jboss.org/drools" typeLanguage="http://www.java.com/javaTypes" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://bpmn.sourceforge.net/schemas/BPMN20.xsd">
+  <process id="com.sample.bpmn.hello" isClosed="false" isExecutable="true" name="Hello World" processType="Private">
+    <extensionElements>
+      <yaoqiang:description/>
+      <yaoqiang:pageFormat height="841.8897637795276" imageableHeight="831.8897637795276" imageableWidth="588.1102362204724" imageableX="5.0" imageableY="5.0" orientation="0" width="598.1102362204724"/>
+      <yaoqiang:page background="#FFFFFF" horizontalCount="1" verticalCount="1"/>
+    </extensionElements>
+    <scriptTask completionQuantity="1" id="_2" isForCompensation="false" name="Hello" startQuantity="1">
+      <incoming>_1-_2</incoming>
+      <outgoing>_2-_3</outgoing>
+      <script><![CDATA[System.out.println("Hello World");]]></script>
+    </scriptTask>
+    <startEvent id="__1" isInterrupting="true" parallelMultiple="false">
+      <outgoing>_1-_2</outgoing>
+      <outputSet/>
+    </startEvent>
+    <endEvent id="_3">
+      <incoming>_2-_3</incoming>
+      <inputSet/>
+      <terminateEventDefinition id="_3_ED_1"/>
+    </endEvent>
+    <sequenceFlow id="_1-_2" sourceRef="__1" targetRef="_2"/>
+    <sequenceFlow id="_2-_3" sourceRef="_2" targetRef="_3"/>
+  </process>
+  <bpmndi:BPMNDiagram id="Yaoqiang_Diagram-com.sample.bpmn.hello" name="Untitled Diagram" resolution="96.0">
+    <bpmndi:BPMNPlane bpmnElement="com.sample.bpmn.hello">
+      <bpmndi:BPMNShape bpmnElement="_2" id="Yaoqiang-_2">
+        <dc:Bounds height="55.0" width="85.0" x="96.0" y="16.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="18.96" width="33.0" x="122.0" y="36.02"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="__1" id="Yaoqiang-__1">
+        <dc:Bounds height="32.0" width="32.0" x="30.0" y="22.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="18.96" width="6.0" x="43.0" y="62.52"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_3" id="Yaoqiang-_3">
+        <dc:Bounds height="32.0" width="32.0" x="210.0" y="22.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="18.96" width="6.0" x="223.0" y="62.52"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="_2-_3" id="Yaoqiang-_2-_3">
+        <di:waypoint x="181.0" y="43.5"/>
+        <di:waypoint x="210.0" y="38.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="18.96" width="6.0" x="192.5" y="31.27"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_1-_2" id="Yaoqiang-_1-_2">
+        <di:waypoint x="62.0" y="38.0"/>
+        <di:waypoint x="96.0" y="43.5"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="18.96" width="6.0" x="76.0" y="31.27"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

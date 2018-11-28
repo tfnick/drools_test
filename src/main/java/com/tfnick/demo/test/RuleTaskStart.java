@@ -1,6 +1,9 @@
 package com.tfnick.demo.test;
 
 
+import com.sample.GrAgendaEventListener;
+import com.sample.GrProcessEventListener;
+import com.sample.GrRuleRuntimeEventListener;
 import com.tfnick.demo.facts.PersonModel;
 import org.kie.internal.runtime.StatefulKnowledgeSession;
 
@@ -24,14 +27,20 @@ public class RuleTaskStart extends QuickStartBase {
 
 
 		model.setProvince("BJ");
-		model.setAge(35);
+		model.setAge(17);
 		model.setCount(6);
 
 		params.put("m", model);
 
-
-		//ksession.insert(model);
-		ksession.startProcess("ruleflow-demo",params);
+		ksession.addEventListener(new GrRuleRuntimeEventListener());
+		
+		ksession.addEventListener(new GrAgendaEventListener());
+		
+		ksession.addEventListener(new GrProcessEventListener());
+		
+		ksession.insert(model);
+		
+		ksession.startProcess("com.sample.bpmn",null);
 
 		int hit = ksession.fireAllRules();
 

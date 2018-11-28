@@ -1,0 +1,38 @@
+package com.sample
+
+import com.sample.HelloProcessModel;
+
+rule "NYuser_Rule"
+	
+	no-loop true
+	ruleflow-group "EvalLoopcondition"
+	when
+		m:HelloProcessModel(userlocation in ("NewYorkUser"), count < 4)
+	then
+	    System.out.println("NYuser_Rule");
+		m.setLoopcondition(6);update(m);
+end
+
+
+rule "ChileUser_Rule"
+	
+	no-loop true
+	ruleflow-group "EvalLoopcondition"
+	when
+		m:HelloProcessModel(userlocation in ("ChileUser"), count < 3)
+	then
+	    System.out.println("ChileUser_Rule");
+		m.setLoopcondition(5);update(m);
+end
+
+
+rule "BelgiumUser_Rule"
+	
+	no-loop true
+	ruleflow-group "EvalLoopcondition"
+	when
+		m:HelloProcessModel(userlocation in ("BelgiumUser"), count < 6)
+	then
+	    System.out.println("BelgiumUser_Rule");
+		m.setLoopcondition(8);update(m);
+end

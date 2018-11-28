@@ -7,11 +7,11 @@ import com.tfnick.demo.facts.PersonModel;
 
 rule "IV011-申请次数超过3次转人工"
     no-loop true
-    ruleflow-group "rf-group"
+    ruleflow-group "demo_rules2"
     when
-        m:PersonModel(count > 3)
+        m:PersonModel(count > 3 && count < 5)
     then
-        System.out.println("IV01");
+        System.out.println("IV011");
         m.setAdvice("cancel");
         m.setReason("申请次数超过3次转人工");
         update(m);
@@ -20,11 +20,11 @@ end
 
 rule "IV021-申请次数过多拒绝"
     no-loop true
-    ruleflow-group "rf-group"
+    ruleflow-group "demo_rules2"
     when
-        m:PersonModel(count > 5)
+        m:PersonModel(count >= 5)
     then
-        System.out.println("IV02");
+        System.out.println("IV021");
         m.setAdvice("reject");
         m.setReason("申请次数过多拒绝");
         update(m);

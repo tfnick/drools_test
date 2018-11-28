@@ -30,8 +30,8 @@ public class ProcessDemoTest {
             model.setAge(17);
 
             params.put("m", model);
-            //ksession.insert(model);
-            ksession.startProcess("ruleflow-demo",params);
+            ksession.insert(model);
+            ksession.startProcess("com.sample.bpmn",params);
 
 
             int hit = ksession.fireAllRules();

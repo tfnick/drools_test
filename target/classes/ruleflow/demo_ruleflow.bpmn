@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> 
 <definitions id="Definition"
              targetNamespace="http://www.jboss.org/drools"
              typeLanguage="http://www.java.com/javaTypes"
@@ -12,16 +12,20 @@
              xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
              xmlns:tns="http://www.jboss.org/drools">
 
-  <itemDefinition id="null" />
-
-  <process processType="Private" isExecutable="true" id="ruleflow-demo" name="Sample Process" tns:packageName="defaultPackage" tns:version="1" >
-
-    <!-- process variables -->
-    <property id="m" itemSubjectRef="null"/>
+  <process processType="Private" isExecutable="true" id="com.sample.bpmn" name="Sample Process" tns:packageName="defaultPackage" >
 
     <!-- nodes -->
-    <startEvent id="_1"  isInterrupting="true"/>
-    <businessRuleTask id="_jbpm-unique-0" name="demo_rules1" g:ruleFlowGroup="rf-group" >
+    <startEvent id="__1"  isInterrupting="true">
+    </startEvent>
+    <businessRuleTask id="_jbpm-unique-0" name="demo_rules1" g:ruleFlowGroup="demo_rules1" >
+      <ioSpecification>
+        <inputSet>
+        </inputSet>
+        <outputSet>
+        </outputSet>
+      </ioSpecification>
+    </businessRuleTask>
+    <businessRuleTask id="_jbpm-unique-1" name="demo_rules2" g:ruleFlowGroup="demo_rules2" >
       <ioSpecification>
         <inputSet>
         </inputSet>
@@ -32,43 +36,42 @@
     <endEvent id="_jbpm-unique-2" name="End" >
         <terminateEventDefinition />
     </endEvent>
-    <scriptTask id="_jbpm-unique-6" name="Script" >
-      <script>System.out.println(m.getCount());
-kcontext.getKnowledgeRuntime().insert(m);</script>
-    </scriptTask>
 
     <!-- connections -->
-    <sequenceFlow id="_jbpm-unique-6-_jbpm-unique-0" sourceRef="_jbpm-unique-6" targetRef="_jbpm-unique-0" />
-    <sequenceFlow id="_jbpm-unique-0-_jbpm-unique-2" sourceRef="_jbpm-unique-0" targetRef="_jbpm-unique-2" />
-    <sequenceFlow id="_1-_jbpm-unique-6" sourceRef="_1" targetRef="_jbpm-unique-6" />
+    <sequenceFlow id="__1-_jbpm-unique-0" sourceRef="__1" targetRef="_jbpm-unique-0" />
+    <sequenceFlow id="_jbpm-unique-0-_jbpm-unique-1" sourceRef="_jbpm-unique-0" targetRef="_jbpm-unique-1" />
+    <sequenceFlow id="_jbpm-unique-1-_jbpm-unique-2" sourceRef="_jbpm-unique-1" targetRef="_jbpm-unique-2" />
 
   </process>
 
   <bpmndi:BPMNDiagram>
-    <bpmndi:BPMNPlane bpmnElement="ruleflow-demo" >
-      <bpmndi:BPMNShape bpmnElement="_1" >
-        <dc:Bounds x="55" y="72" width="48" height="48" />
+    <bpmndi:BPMNPlane bpmnElement="com.sample.bpmn" >
+      <bpmndi:BPMNShape bpmnElement="__1" >
+        <dc:Bounds x="47" y="64" width="48" height="48" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="_jbpm-unique-0" >
-        <dc:Bounds x="229" y="122" width="80" height="48" />
+        <dc:Bounds x="210" y="83" width="85" height="55" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-1" >
+        <dc:Bounds x="208" y="220" width="85" height="55" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="_jbpm-unique-2" >
-        <dc:Bounds x="393" y="211" width="48" height="48" />
+        <dc:Bounds x="406" y="218" width="48" height="48" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-6" >
-        <dc:Bounds x="146" y="189" width="80" height="48" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-6-_jbpm-unique-0" >
-        <di:waypoint x="186" y="213" />
-        <di:waypoint x="269" y="146" />
+      <bpmndi:BPMNEdge bpmnElement="__1-_jbpm-unique-0" >
+        <di:waypoint x="71" y="88" />
+        <di:waypoint x="177" y="105" />
+        <di:waypoint x="252" y="110" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-0-_jbpm-unique-2" >
-        <di:waypoint x="269" y="146" />
-        <di:waypoint x="417" y="235" />
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-0-_jbpm-unique-1" >
+        <di:waypoint x="252" y="110" />
+        <di:waypoint x="241" y="190" />
+        <di:waypoint x="250" y="247" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="_1-_jbpm-unique-6" >
-        <di:waypoint x="79" y="96" />
-        <di:waypoint x="186" y="213" />
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-1-_jbpm-unique-2" >
+        <di:waypoint x="250" y="247" />
+        <di:waypoint x="393" y="227" />
+        <di:waypoint x="430" y="242" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
