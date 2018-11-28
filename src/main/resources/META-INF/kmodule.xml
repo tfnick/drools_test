@@ -6,4 +6,8 @@
     <kbase name="processrules" packages="processrules">
         <ksession name="sample-process-rules"/>
     </kbase>
+
+    <kbase name="ruleflow" packages="ruleflow">
+        <ksession name="ksession-ruleflow"/>
+    </kbase>
 </kmodule>

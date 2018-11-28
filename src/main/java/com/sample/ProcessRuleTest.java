@@ -27,8 +27,10 @@ public class ProcessRuleTest {
 			hpm.setUserlocation("NewYorkUser");
 			params.put("hpm", hpm);
 			ksession.startProcess("looptest777",params);
-		
-			ksession.fireAllRules();
+
+			int hit = ksession.fireAllRules();
+
+			System.out.println(hit);
 			
 		} catch (Throwable t) {
 			t.printStackTrace();

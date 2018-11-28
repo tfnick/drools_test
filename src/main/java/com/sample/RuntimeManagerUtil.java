@@ -1,8 +1,14 @@
 package com.sample;
 
+import com.tfnick.demo.facts.PersonModel;
+import org.kie.api.io.ResourceType;
 import org.kie.api.runtime.KieSession;
 import org.kie.api.runtime.manager.*;
+import org.kie.internal.io.ResourceFactory;
 import org.kie.internal.runtime.manager.context.EmptyContext;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class RuntimeManagerUtil {
 
@@ -13,7 +19,7 @@ public class RuntimeManagerUtil {
 
                 .newDefaultInMemoryBuilder()
 
-                //.addAsset(ResourceFactory.newClassPathResource("BPMN2-ScriptTask.bpmn2"), ResourceType.BPMN2)
+                .addAsset(ResourceFactory.newClassPathResource("ruleflow/demo_ruleflow.bpmn"), ResourceType.BPMN2)
 
                 .get();
 
@@ -39,8 +45,16 @@ public class RuntimeManagerUtil {
 
 
         // add invocations to the process engine here,
+        Map<String, Object> params = new HashMap<String, Object>();
+        PersonModel model = new PersonModel();
+        model.setCount(new Integer("3"));
 
-        // e.g. ksession.startProcess(processId);
+        model.setProvince("北京");
+        model.setAge(20);
+        params.put("m", model);
+
+
+        ksession.startProcess("ruleflow-demo",params);
 
 
         // and last dispose the runtime engine

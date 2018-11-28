@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" debug="false">
 
-    <property name="log.base" value="/home/GR/Logs/rule_test"/>
+    <property name="log.base" value="~/Document/Logs/"/>
     <property name="log.error" value="error"/>
     <property name="app.name" value="test"/>
 
