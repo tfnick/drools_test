@@ -23,8 +23,9 @@ public class ProcessDemoTest {
             // set the parameters
             Map<String, Object> params = new HashMap<String, Object>();
             PersonModel model = new PersonModel();
-            model.setCount(new Integer("3"));
 
+
+            model.setCount(3);
             model.setProvince("北京");
             model.setAge(20);
 

@@ -48,35 +48,3 @@ rule "AC02-其他省份年龄高于50的不贷"
 end
 
 
-
-
-
-
-
-
-
-rule "IV01-申请次数超过3次转人工"
-    no-loop true
-    ruleflow-group "rf-group"
-    when
-        m:PersonModel(count > 3)
-    then
-        System.out.println("IV01");
-        m.setAdvice("cancel");
-        m.setReason("申请次数超过3次转人工");
-        update(m);
-
-end
-
-rule "IV02-申请次数过多拒绝"
-    no-loop true
-    ruleflow-group "rf-group"
-    when
-        m:PersonModel(count > 5)
-    then
-        System.out.println("IV02");
-        m.setAdvice("reject");
-        m.setReason("申请次数过多拒绝");
-        update(m);
-
-end
