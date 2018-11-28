@@ -26,12 +26,13 @@ public class ProcessDemoTest {
 
 
             model.setCount(3);
-            model.setProvince("北京");
-            model.setAge(20);
+            model.setProvince("BJ");
+            model.setAge(17);
 
             params.put("m", model);
-
+            //ksession.insert(model);
             ksession.startProcess("ruleflow-demo",params);
+
 
             int hit = ksession.fireAllRules();
 

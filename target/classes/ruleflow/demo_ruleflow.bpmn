@@ -12,7 +12,7 @@
              xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
              xmlns:tns="http://www.jboss.org/drools">
 
-  <itemDefinition id="_m" structureRef="com.tfnick.demo.facts.PersonModel" />
+  <itemDefinition id="null" />
 
   <process processType="Private" isExecutable="true" id="ruleflow-demo" name="Sample Process" tns:packageName="defaultPackage" tns:version="1" >
 
@@ -29,22 +29,18 @@
         </outputSet>
       </ioSpecification>
     </businessRuleTask>
-    <businessRuleTask id="_jbpm-unique-1" name="demo_rules2" g:ruleFlowGroup="rf-group" >
-      <ioSpecification>
-        <inputSet>
-        </inputSet>
-        <outputSet>
-        </outputSet>
-      </ioSpecification>
-    </businessRuleTask>
     <endEvent id="_jbpm-unique-2" name="End" >
         <terminateEventDefinition />
     </endEvent>
+    <scriptTask id="_jbpm-unique-6" name="Script" >
+      <script>System.out.println(m.getCount());
+kcontext.getKnowledgeRuntime().insert(m);</script>
+    </scriptTask>
 
     <!-- connections -->
-    <sequenceFlow id="_1-_jbpm-unique-0" sourceRef="_1" targetRef="_jbpm-unique-0" />
-    <sequenceFlow id="_jbpm-unique-0-_jbpm-unique-1" sourceRef="_jbpm-unique-0" targetRef="_jbpm-unique-1" />
-    <sequenceFlow id="_jbpm-unique-1-_jbpm-unique-2" sourceRef="_jbpm-unique-1" targetRef="_jbpm-unique-2" />
+    <sequenceFlow id="_jbpm-unique-6-_jbpm-unique-0" sourceRef="_jbpm-unique-6" targetRef="_jbpm-unique-0" />
+    <sequenceFlow id="_jbpm-unique-0-_jbpm-unique-2" sourceRef="_jbpm-unique-0" targetRef="_jbpm-unique-2" />
+    <sequenceFlow id="_1-_jbpm-unique-6" sourceRef="_1" targetRef="_jbpm-unique-6" />
 
   </process>
 
@@ -54,25 +50,25 @@
         <dc:Bounds x="55" y="72" width="48" height="48" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="_jbpm-unique-0" >
-        <dc:Bounds x="177" y="78" width="80" height="48" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-1" >
-        <dc:Bounds x="221" y="190" width="80" height="48" />
+        <dc:Bounds x="229" y="122" width="80" height="48" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="_jbpm-unique-2" >
         <dc:Bounds x="393" y="211" width="48" height="48" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge bpmnElement="_1-_jbpm-unique-0" >
-        <di:waypoint x="79" y="96" />
-        <di:waypoint x="217" y="102" />
+      <bpmndi:BPMNShape bpmnElement="_jbpm-unique-6" >
+        <dc:Bounds x="146" y="189" width="80" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-6-_jbpm-unique-0" >
+        <di:waypoint x="186" y="213" />
+        <di:waypoint x="269" y="146" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-0-_jbpm-unique-1" >
-        <di:waypoint x="217" y="102" />
-        <di:waypoint x="261" y="214" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-1-_jbpm-unique-2" >
-        <di:waypoint x="261" y="214" />
+      <bpmndi:BPMNEdge bpmnElement="_jbpm-unique-0-_jbpm-unique-2" >
+        <di:waypoint x="269" y="146" />
         <di:waypoint x="417" y="235" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_1-_jbpm-unique-6" >
+        <di:waypoint x="79" y="96" />
+        <di:waypoint x="186" y="213" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

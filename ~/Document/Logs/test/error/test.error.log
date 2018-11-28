@@ -44,3 +44,17 @@ Rule Compilation error : [Rule name='IV01-申请次数超过3次转人工']
 	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (3:144) : The type Rule_IV01$u45$申请次数超过3次转人工1091123609 is already defined
 
 
+2018-11-28 20:22:46,999 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:ruleflow
+[53,0]: Duplicate rule name: IV01-申请次数超过3次转人工
+[66,0]: Duplicate rule name: IV02-申请次数过多拒绝
+Rule Compilation error : [Rule name='IV02-申请次数过多拒绝']
+	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (6:253) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV02$u45$申请次数过多拒绝618509454
+	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (14:727) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV02$u45$申请次数过多拒绝618509454
+	com/gr/tfnick/Rule_IV02$u45$申请次数过多拒绝618509454.java (3:144) : The type Rule_IV02$u45$申请次数过多拒绝618509454 is already defined
+
+Rule Compilation error : [Rule name='IV01-申请次数超过3次转人工']
+	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (6:257) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV01$u45$申请次数超过3次转人工1091123609
+	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (14:734) : Duplicate method defaultConsequence(KnowledgeHelper, PersonModel, FactHandle) in type Rule_IV01$u45$申请次数超过3次转人工1091123609
+	com/gr/tfnick/Rule_IV01$u45$申请次数超过3次转人工1091123609.java (3:144) : The type Rule_IV01$u45$申请次数超过3次转人工1091123609 is already defined
+
+

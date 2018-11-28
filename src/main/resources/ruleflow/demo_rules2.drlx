@@ -5,7 +5,7 @@ import com.tfnick.demo.facts.PersonModel;
 
 
 
-rule "IV01-申请次数超过3次转人工"
+rule "IV011-申请次数超过3次转人工"
     no-loop true
     ruleflow-group "rf-group"
     when
@@ -18,7 +18,7 @@ rule "IV01-申请次数超过3次转人工"
 
 end
 
-rule "IV02-申请次数过多拒绝"
+rule "IV021-申请次数过多拒绝"
     no-loop true
     ruleflow-group "rf-group"
     when

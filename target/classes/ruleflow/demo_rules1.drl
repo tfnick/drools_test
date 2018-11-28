@@ -7,7 +7,7 @@ import com.tfnick.demo.facts.PersonModel;
 
 //declare any global variables here
 rule "AC00-核心数据缺失不贷"
-    no-loop true
+    lock-on-active true
     ruleflow-group "rf-group"
     when
         m:PersonModel(province == null || age == null)
@@ -22,10 +22,10 @@ end
 
 
 rule "AC01-北上广超过30的成年人不贷"
-    no-loop true
+    lock-on-active true
     ruleflow-group "rf-group"
     when
-        m:PersonModel(province in ("北京","上海","深圳"), age < 18 || age > 30)
+        m:PersonModel(province in ("BJ","SH","SZ"),  age > 30)
     then
         System.out.println("AC01");
         m.setAdvice("reject");
@@ -35,10 +35,10 @@ rule "AC01-北上广超过30的成年人不贷"
 end
 
 rule "AC02-其他省份年龄高于50的不贷"
-    no-loop true
+    lock-on-active true
     ruleflow-group "rf-group"
     when
-        m:PersonModel(province not in ("北京","上海","深圳"), age < 18 || age > 50)
+        m:PersonModel(province not in ("BJ","SH","SZ"),  age > 50)
     then
         System.out.println("AC02");
         m.setAdvice("reject");
@@ -46,5 +46,35 @@ rule "AC02-其他省份年龄高于50的不贷"
         update(m);
 
 end
+
+rule "AC03-未成年人不贷"
+    lock-on-active true
+    ruleflow-group "rf-group"
+    when
+        m:PersonModel(age < 18)
+    then
+        System.out.println("AC03");
+        m.setAdvice("reject");
+        m.setReason("未成年人不贷");
+        update(m);
+
+end
+
+
+
+
+rule "IV02-申请次数过多拒绝"
+    lock-on-active true
+    ruleflow-group "rf-group"
+    when
+        m:PersonModel(count > 2)
+    then
+        System.out.println("IV02");
+        m.setAdvice("reject");
+        m.setReason("申请次数过多拒绝");
+        update(m);
+
+end
+
 
 

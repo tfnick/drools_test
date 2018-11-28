@@ -23,17 +23,19 @@ public class RuleTaskStart extends QuickStartBase {
 		PersonModel model = new PersonModel();
 
 
-		model.setProvince("北京");
-		model.setAge(20);
+		model.setProvince("BJ");
+		model.setAge(35);
 		model.setCount(6);
 
 		params.put("m", model);
 
+
+		//ksession.insert(model);
 		ksession.startProcess("ruleflow-demo",params);
 
 		int hit = ksession.fireAllRules();
 
-		System.out.println(hit);
+		System.out.println("hit: " + hit);
 
 		System.out.println(model.getAdvice());
 		System.out.println(model.getReason());
