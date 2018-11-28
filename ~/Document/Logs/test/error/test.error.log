@@ -22,3 +22,11 @@
 2018-11-28 19:07:49,946 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:processrules
 ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : <itemDefinition> has an invalid parent element [null]
 
+2018-11-28 19:20:32,938 ERROR [main] org.drools.core.xml.ExtensibleXmlParser.java:(683) | (null: 2, 785): cvc-elt.1: 找不到元素 'definitions' 的声明。
+2018-11-28 19:20:33,431 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:processrules
+ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : <itemDefinition> has an invalid parent element [null]
+
+2018-11-28 19:57:54,971 ERROR [main] org.drools.core.xml.ExtensibleXmlParser.java:(683) | (null: 2, 785): cvc-elt.1: 找不到元素 'definitions' 的声明。
+2018-11-28 19:57:55,493 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:processrules
+ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : <itemDefinition> has an invalid parent element [null]
+

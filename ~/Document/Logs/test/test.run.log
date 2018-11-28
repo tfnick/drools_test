@@ -74,3 +74,32 @@ ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseExce
 2018-11-28 19:09:42,790 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
 2018-11-28 19:09:43,330 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
 2018-11-28 19:13:48,497 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
+2018-11-28 19:16:27,041 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
+2018-11-28 19:18:24,854 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
+2018-11-28 19:18:25,263 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
+2018-11-28 19:18:33,720 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
+2018-11-28 19:18:34,150 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
+2018-11-28 19:20:30,403 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
+2018-11-28 19:20:30,928 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
+2018-11-28 19:20:32,938 ERROR [main] org.drools.core.xml.ExtensibleXmlParser.java:(683) | (null: 2, 785): cvc-elt.1: 找不到元素 'definitions' 的声明。
+2018-11-28 19:20:33,431 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:processrules
+ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : <itemDefinition> has an invalid parent element [null]
+
+2018-11-28 19:23:09,153 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
+2018-11-28 19:23:09,896 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
+2018-11-28 19:23:26,041 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
+2018-11-28 19:23:26,624 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
+2018-11-28 19:26:12,216 INFO  [main] org.hibernate.annotations.common.Version.java:(37) | HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-11-28 19:26:12,241 INFO  [main] org.hibernate.Version.java:(41) | HHH000412: Hibernate Core {4.2.0.Final}
+2018-11-28 19:26:12,245 INFO  [main] org.hibernate.cfg.Environment.java:(239) | HHH000206: hibernate.properties not found
+2018-11-28 19:26:12,248 INFO  [main] org.hibernate.cfg.Environment.java:(342) | HHH000021: Bytecode provider name : javassist
+2018-11-28 19:26:12,283 INFO  [main] org.hibernate.ejb.Ejb3Configuration.java:(321) | HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2018-11-28 19:43:10,629 WARN  [main] org.drools.core.xml.ExtensibleXmlParser.java:(679) | (null: 12, 18): Ignoring <outputSet> element: <outputSet> elements should not be used on start or other catch events.
+2018-11-28 19:57:52,450 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
+2018-11-28 19:57:53,041 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]
+2018-11-28 19:57:54,971 ERROR [main] org.drools.core.xml.ExtensibleXmlParser.java:(683) | (null: 2, 785): cvc-elt.1: 找不到元素 'definitions' 的声明。
+2018-11-28 19:57:55,493 ERROR [main] org.drools.compiler.kie.builder.impl.AbstractKieModule.java:(250) | Unable to build KieBaseModel:processrules
+ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : <itemDefinition> has an invalid parent element [null]
+
+2018-11-28 19:59:21,021 INFO  [main] org.drools.compiler.kie.builder.impl.ClasspathKieProject.java:(131) | Found kmodule: file:/Users/nick/Documents/pro_java/drools_test/target/classes/META-INF/kmodule.xml
+2018-11-28 19:59:21,754 INFO  [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.java:(113) | KieModule was added: FileKieModule[releaseId=droolsflowtest:droolsflowtest:1.0,file=/Users/nick/Documents/pro_java/drools_test/target/classes]

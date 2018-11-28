@@ -17,9 +17,11 @@ public class RuntimeManagerUtil {
 
         RuntimeEnvironment environment = RuntimeEnvironmentBuilder.Factory.get()
 
-                .newDefaultInMemoryBuilder()
+                .newEmptyBuilder()
 
                 .addAsset(ResourceFactory.newClassPathResource("ruleflow/demo_ruleflow.bpmn"), ResourceType.BPMN2)
+                .addAsset(ResourceFactory.newClassPathResource("ruleflow/demo_rules1.drl"), ResourceType.DRL)
+                .addAsset(ResourceFactory.newClassPathResource("ruleflow/demo_rules2.drl"), ResourceType.DRL)
 
                 .get();
 
@@ -50,12 +52,16 @@ public class RuntimeManagerUtil {
         model.setCount(new Integer("3"));
 
         model.setProvince("北京");
-        model.setAge(20);
+        model.setAge(31);
         params.put("m", model);
 
 
         ksession.startProcess("ruleflow-demo",params);
 
+        int hit = ksession.fireAllRules();
+
+        System.out.println(hit);
+        System.out.println(model.getAdvice());
 
         // and last dispose the runtime engine
 
